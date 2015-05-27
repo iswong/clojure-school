@@ -1,6 +1,6 @@
 (defproject clojure-school "0.1.0-SNAPSHOT"
   :plugins [[lein-ring "0.8.11"]]
-  :ring {:handler liberator-example/handler}
+  :ring {:handler clojure-school.core/handler}
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
